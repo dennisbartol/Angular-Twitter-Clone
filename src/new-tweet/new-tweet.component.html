@@ -1,1 +1,7 @@
+<div class="new-tweet">
+  <form (ngSubmit)="postTweet()">
+    <textarea [(ngModel)]="tweetContent" name="content" required></textarea>
+    <button type="submit">Tweet</button>
+  </form>
+</div>
 
