@@ -2,9 +2,9 @@
 
 This Twitter clone has several components, including : 
 <ol>
-<li>HomeComponent: To display the feed.</li>
-<li>TweetComponent: To display individual tweets.</li>
-<li>NewTweetComponent: To create new tweets.</li>
-<li>ProfileComponent: To display user profiles.</li>
-<li>AuthComponent: For user authentication (login/signup).</li>
+<li>HomeComponent: To display the message feed</li>
+<li>TweetComponent: To display individual tweets</li>
+<li>NewTweetComponent: To create new tweets</li>
+<li>ProfileComponent: To display user profiles</li>
+<li>AuthComponent: For user authentication (login/signup)</li>
 </ol>
