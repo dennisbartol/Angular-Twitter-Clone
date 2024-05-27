@@ -7,3 +7,15 @@ import { TweetService } from '../services/tweet.service';
   styleUrls: ['./new-tweet.component.css']
 })
 
+export class NewTweetComponent {
+  tweetContent: string = '';
+
+  constructor(private tweetService: TweetService) {}
+
+  postTweet(): void {
+    this.tweetService.postTweet({ content: this.tweetContent }).subscribe(() => {
+      this.tweetContent = '';
+    });
+  }
+}
+  
