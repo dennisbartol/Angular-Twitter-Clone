@@ -8,7 +8,6 @@ import { Observable } from 'rxjs';
 })
 
 
-
 export class TweetService {
 private apiUrl = 'https://api.example.com/tweets';
 
