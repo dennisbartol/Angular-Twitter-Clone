@@ -13,3 +13,7 @@ export class TweetService {
 private apiUrl = 'https://api.example.com/tweets';
 
 constructor(private http: HttpClient) {}
+
+getTweets(): Observable<any[]> {
+  return this.http.get<any[]>(this.apiUrl);
+}
