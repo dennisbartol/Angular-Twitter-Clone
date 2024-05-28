@@ -1,4 +1,4 @@
-<h3>Twtr Clone (But don't tell Elon)</h3>
+<h3>Twtr Clone (Don't tell Elon)</h3>
 
 This Twitter clone comes with multiple components : 
 <ol>
