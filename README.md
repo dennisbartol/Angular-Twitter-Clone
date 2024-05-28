@@ -1,6 +1,6 @@
+<h3>Twtr Clone (But don't tell Elon)</h3>
 
-
-This Twitter clone has several components, including : 
+This Twitter clone comes with multiple components : 
 <ol>
 <li>HomeComponent: To display the message feed</li>
 <li>TweetComponent: To display individual tweets</li>
