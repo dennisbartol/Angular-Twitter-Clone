@@ -15,3 +15,8 @@ import { AuthService } from '../services/auth.service';
   ngOnInit(): void {
     this.user = this.authService.getUser();
   }
+
+  logout(): void {
+    this.authService.logout();
+  }
+}
