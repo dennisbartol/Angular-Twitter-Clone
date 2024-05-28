@@ -16,3 +16,8 @@ constructor(private http: HttpClient) {}
 getTweets(): Observable<any[]> {
   return this.http.get<any[]>(this.apiUrl);
 }
+
+postTweet(tweet: any): Observable<any> {
+  return this.http.post<any>(this.apiUrl, tweet);
+}
+
