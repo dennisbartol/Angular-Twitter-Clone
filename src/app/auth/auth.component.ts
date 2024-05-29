@@ -14,3 +14,8 @@ email = '';
 password = '';
 
 constructor(private authService: AuthService, private router: Router) { }
+
+// Switch between login and signup mode 
+switchMode(): void {
+    this.isLoginMode = !this.isLoginMode;
+  }
