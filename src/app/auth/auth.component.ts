@@ -12,3 +12,5 @@ export class AuthComponent {
 isLoginMode = true;
 email = '';
 password = '';
+
+constructor(private authService: AuthService, private router: Router) { }
