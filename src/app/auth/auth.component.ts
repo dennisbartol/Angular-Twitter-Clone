@@ -13,6 +13,7 @@ isLoginMode = true;
 email = '';
 password = '';
 
+// Injects authservice and router service 
 constructor(private authService: AuthService, private router: Router) { }
 
 // Switch between login and signup mode 
