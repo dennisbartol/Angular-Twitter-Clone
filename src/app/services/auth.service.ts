@@ -3,7 +3,7 @@
 import { Injectable } from '@angular/core'; // Import essential Angular features, and also making this service injectable 
 import { HttpClient } from '@angular/common/http';  // Provide http services & making http requests
 import { Observable } from 'rxjs'; // Support for reactive programming 
-import { tap } from 'rxjs/operators'; // Perform side effects, updating the user property
+import { tap } from 'rxjs/operators'; // Perform side effects + Updating the user property
 
 @Injectable({
   providedIn: 'root'
