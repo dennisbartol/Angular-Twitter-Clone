@@ -1,9 +1,9 @@
 // A service to handle authentication logic 
 
-import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
-import { tap } from 'rxjs/operators';
+import { Injectable } from '@angular/core'; // Import essential Angular features, and also making this service injectable 
+import { HttpClient } from '@angular/common/http';  // Provide http services & making http requests
+import { Observable } from 'rxjs'; // Support for reactive programming 
+import { tap } from 'rxjs/operators'; // Perform side effects, updating the user property
 
 @Injectable({
   providedIn: 'root'
