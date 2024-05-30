@@ -16,12 +16,12 @@ export class AuthService {
   constructor(private http: HttpClient) { }
   // This constructor injects http requests
 
-// The signup method 
+// Signup method 
   signup(email: string, password: string): Observable<any> {
   return this.http.post<any>(`${this.apiUrl}/signup`, { email, password })
     .pipe(tap(response => {
       this.user = response.user;
-    }));
+    })); // The tap operator is used to update the user property with the user data from the response, when the request is successful
 }
 
   
