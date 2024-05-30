@@ -20,3 +20,9 @@ constructor(private authService: AuthService, private router: Router) { }
 switchMode(): void {
     this.isLoginMode = !this.isLoginMode;
   }
+
+
+ onSubmit(): void {
+
+
+ }
