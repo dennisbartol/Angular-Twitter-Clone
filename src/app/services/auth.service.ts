@@ -7,8 +7,12 @@ import { tap } from 'rxjs/operators'; // Perform side effects + Updating the use
 
 @Injectable({
   providedIn: 'root'
-})
+}) // The authentication service is to be shared at the root level
 
 export class AuthService {
   private apiUrl = 'http://localhost:5000/api/auth';
   private user: any;
+
+  constructor(private http: HttpClient) { }
+
+  
