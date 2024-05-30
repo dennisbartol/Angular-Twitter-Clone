@@ -23,6 +23,9 @@ switchMode(): void {
 
 
  onSubmit(): void {
-
+    if (this.isLoginMode) {
+      this.authService.login(this.email, this.password).subscribe(response => {
+        this.router.navigate(['/profile']);
+      });
 
  }
