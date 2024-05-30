@@ -19,7 +19,7 @@ export class AuthService {
 // Signup method 
   signup(email: string, password: string): Observable<any> {
   return this.http.post<any>(`${this.apiUrl}/signup`, { email, password })
-    .pipe(tap(response => {
+    .pipe(tap(response => { // Pipe is imported from the RxJS library
       this.user = response.user;
     })); // The tap operator is used to update the user property with the user data from the response, when the request is successful
 }
