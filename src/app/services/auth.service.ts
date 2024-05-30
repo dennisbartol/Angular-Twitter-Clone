@@ -24,4 +24,9 @@ export class AuthService {
     })); // The tap operator is used to update the user property with the user data from the response, when the request is successful
 }
 
+
+  login(email: string, password: string): Observable<any> {
+  
+  
+  }
   
