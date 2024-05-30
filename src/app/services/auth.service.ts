@@ -31,7 +31,16 @@ export class AuthService {
     // The tap operator updates the user property with the user data from the response
       .pipe(tap(response => { 
       this.user = response.user; 
-    }));
-      
+    }));     
   }
+
+logout(): void { 
+  this.user = null; 
+} // This method clears the user to null, logging the user out
+
+
+getUser(): any { 
+  return.this.user; 
+} // This method returns the current user's data - Which is stored in the user property
+  
   
