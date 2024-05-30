@@ -28,6 +28,10 @@ export class AuthService {
   login(email: string, password: string): Observable<any> {
     // This method sends a POST request to the login endpoint of the API, with the provided credentials
     return this.http.post<any>(`${this.apiUrl}/login`, { email, password })
-  
+ 
+      .pipe(tap(response => { 
+      this.user = response.user; 
+    }));
+      
   }
   
