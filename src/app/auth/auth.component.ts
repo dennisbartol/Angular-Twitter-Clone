@@ -27,5 +27,10 @@ switchMode(): void {
       this.authService.login(this.email, this.password).subscribe(response => {
         this.router.navigate(['/profile']);
       });
-
+      } else {
+      this.authService.signup(this.email, this.password).subscribe(response => {
+        this.router.navigate(['/profile']);
+      });
+    }
+  }
  }
