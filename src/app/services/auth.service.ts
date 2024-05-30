@@ -14,5 +14,8 @@ export class AuthService {
   private user: any; // This property stores the data of the user 
 
   constructor(private http: HttpClient) { }
+  // This constructor injects http requests
+
+  
 
   
