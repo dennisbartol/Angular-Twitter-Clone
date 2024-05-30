@@ -10,8 +10,8 @@ import { tap } from 'rxjs/operators'; // Perform side effects + Updating the use
 }) // The authentication service is to be shared at the root level
 
 export class AuthService {
-  private apiUrl = 'http://localhost:5000/api/auth';
-  private user: any;
+  private apiUrl = 'http://localhost:5000/api/auth'; // The base URL for the authentication API
+  private user: any; // This property stores the data of the user 
 
   constructor(private http: HttpClient) { }
 
