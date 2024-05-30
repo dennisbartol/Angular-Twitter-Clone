@@ -1,4 +1,4 @@
-// A service to handle authentication logic 
+// A service to handle authentication logic - auth.service.ts
 
 import { Injectable } from '@angular/core'; // Import essential Angular features, and also making this service injectable 
 import { HttpClient } from '@angular/common/http';  // Provide http services & making http requests
