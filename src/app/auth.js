@@ -22,3 +22,9 @@ try {
 
 // Login 
 
+router.post('/login', async (req, rest) => {
+  const { email, password } = req.body; 
+
+  
+
+}
