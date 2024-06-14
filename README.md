@@ -1,4 +1,4 @@
-<h3>Twtr Clone (<i>Sssst don't tell Elon</i>)</h3>
+<h3>Twtr Clone (<i>Sssst, don't tell Elon</i>)</h3>
 
 This Twitter clone - in Angular - comes with multiple components : 
 <ol>
