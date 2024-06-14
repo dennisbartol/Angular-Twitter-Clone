@@ -6,5 +6,5 @@ This Twitter clone - in Angular - comes with multiple components :
 <li><b>Tweet component:</b> To display individual tweets</li>
 <li><b>New Tweet component:</b> To create new tweets</li>
 <li><b>Profile component:</b> To display user profiles</li>
-<li><b>Auth(orisation) component:</b> For user authentication (login/signup)</li>
+<li><b>Auth(orisation) component:</b> For a user authentication (Login & signup)</li>
 </ol>
