@@ -10,4 +10,4 @@ This Twitter clone - in Angular - comes with multiple components :
 <b><li>Auth(orisation) component:</b> For a user authentication (Login & signup)</li>
 </ol>
 
-It performs, the basics. 
+It performs the basics of a Twitter front-end client program.
